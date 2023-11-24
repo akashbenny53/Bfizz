@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    
+}
+
+.wrap{
+  width: 100vw !important;
+  overflow: hidden;
+}
+.repo{
+    height: 100vh;
+    background-color: #0a0b27;
+    color: #fff;
+    z-index: 999;
+    display: none;
+    
+  }
+  .kk{
+    width: 100vw;
+    height: 100%;
+    overflow: hidden;
+  }
+body{
+    width: 100vw;
+    overflow-x: hidden;
+  }
+  .ash{
+    margin-top: 45px;
+    row-gap: 45px;
+  }
+  .rap{
+    width: 100vw;
+    overflow: hidden;
+  }
+
+mainimg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+.mainimg2{
+  margin-top: 56px;
+}
+
+.yellow{
+  width: 50vw;
+  height:700px;
+  background-color:rgb(255, 204, 49);
+ 
+  }
+  .rotatingimg{
+    height: 78%;
+    scroll-direction: horizontal;
+  }
+  
+@media(max-width:767px){
+  .rotatingimg{
+    height: 314px;
+  }
+}
+@media(max-width:991px){
+  .yellow{
+    width: 100vw;
+    height:700px;
+    background-color:rgb(255, 204, 49);
+    }
+}
+.container-fluid{
+  width: 103vw;
+}
+.yellow>h1{
+  text-align: center;
+  font-size: 80px;
+  font-weight: 800;
+  font-family: "EksellDisplayWeb-Small";
+  color: white;
+  position:absolute ;
+}
+.mainrotion{
+  display: flex;
+
+}
+.righttext{
+height: auto;
+font-family: "merivaregular";
+text-align: left;
+line-height: 28.8px;
+font-size: 24px;
+
+}
+@media(max-width:991px){
+  .righttext{
+
+padding: 60px;
+  }
+}
+.paragraph{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+line-height: 28.8px;
+font-size: 24px
+}
+
+.full1{
+  padding: 50px;
+}
+.leftf{
+ 
+  text-align: left;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding-left: 30px;
+}
+.midf{
+  text-align: left;
+  font-size: 14px;
+font-weight: 400;
+  line-height: 16.8px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.rightf{
+  text-align: left;
+  font-size: 14px;
+
+  font-weight: 400;
+  line-height: 19px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.reat{
+  font-weight: 900;
+  line-height: 23px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media(max-width:767px){
+  .leftf{
+ 
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 5vw;
+  }
+  .midf{
+    text-align: left;
+    font-size: 14px;
+  font-weight: 400;
+    line-height: 16.8px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 5vw;
+  }
+  
+  .rightf{
+    text-align: left;
+    font-size: 14px;
+  
+    font-weight: 400;
+    line-height: 19px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 5vw;
+  }
+  .reat{
+    font-weight: 900;
+    line-height: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 5vw;
+  }
+}
+.repo{
+  height: 100vh;
+  background-color: #0a0b27;
+  color: #fff;
+  z-index: 999;
+  display: none;
+  
+}
+.kk{
+  width: 100vw;
+  height: 100%;
+  overflow: hidden;
+}
+.repo{
+  height: 100vh;
+  background-color: #0a0b27;
+  color: #fff;
+  z-index: 999;
+  display: none;
+  
+}
+.kk{
+  width: 100vw;
+  height: 100%;
+  overflow: hidden;
+}
